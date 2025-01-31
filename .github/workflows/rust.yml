@@ -28,7 +28,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: typos-action      
-        uses: crate-ci/typos@v1.28.4
+        uses: crate-ci/typos@v1.29.5
       - uses: dtolnay/rust-toolchain@stable
         with:
           toolchain: stable
